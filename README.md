@@ -43,3 +43,9 @@ I'm not necessarily looking for Cam Link compability, just any UVC compatible ca
   - EOS M200: adapter
   - EOS M6: adapter
   - EOS R: adapter
+
+## To-Do
+
+### Consider budging on dummy battery, caputer combined camera and battery price
+
+Looks like almost all Sony and Fujifilm cameras required a dummy battery.
