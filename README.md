@@ -4,6 +4,10 @@ I'm going through the Elgato camera list and picking out only cameras with the a
 
 https://www.elgato.com/en/gaming/cam-link/camera-check
 
+The source data for this page are available at:
+
+https://www.elgato.com/sites/default/files/cameras.json
+
 I'm not necessarily looking for Cam Link compability, just any UVC compatible capture device.
 
 ## Valid
