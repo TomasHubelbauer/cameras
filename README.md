@@ -1,55 +1,62 @@
-# Cameras with clean HDMI output, unlimited runtime, no need for dummy battery or coupler adapter and full Elgato compability
+# Cameras with clean HDMI output, unlimited runtime and UVC-card compatibility
 
-I'm going through the Elgato camera list and picking out only cameras with the above specs:
+I am looking to buy a camera with clean HDMI output (no UI), unlimited runtime
+(no automatic power-off timer, seems to require a dummy battery in all cases)
+and compatibility with UVC capture cards.
+
+I found a list of cameras with the clean HDMI output and unlimited runtime on a
+dummy battery attributes provided on the Elgato Cam Link camera check site:
 
 https://www.elgato.com/en/gaming/cam-link/camera-check
 
-The source data for this page are available at:
+The source file with JSON data is available directly at this URL:
 
 https://www.elgato.com/sites/default/files/cameras.json
 
-I'm not necessarily looking for Cam Link compability, just any UVC compatible capture device.
+I have written a script to filter down the list based on the above requirements.
 
-## Valid
+---
 
-- Sony
-  - DSC-RX0: 1080p60, micro HDMI, 13k, https://digitalni-fotoaparaty.heureka.cz/sony-cyber-shot-dsc-rx0
-  - DSC-RX100M4: 1080p60, micro HDMI, 18k, https://digitalni-fotoaparaty.heureka.cz/sony-cyber-shot-dsc-rx100iv
-  - FDR-AX33, 1080p60, micro HDMI, 15k, https://digitalni-kamery.heureka.cz/sony-fdr-ax33
-  - FDR-AX35, 4k30, micro HDMI, 22k, https://digitalni-kamery.heureka.cz/sony-fdr-ax53
-  - PXW-Z90V, 1080p60, HDMI, 80k, https://digitalni-kamery.heureka.cz/sony-pxw-z90
-  - RX100 V: 4k30, micro HDMI, https://digitalni-fotoaparaty.heureka.cz/sony-cyber-shot-dsc-rx100m5 (v = m5?)
-  - RX100 VI: 4k30, micro HDMI, https://digitalni-fotoaparaty.heureka.cz/sony-cyber-shot-dsc-rx100vi
-- Canon
+It seems that there is no camera which has unlimited runtime on USB power only.
 
-## Invalid
+There is a single camera with `power == "DCPowerAdapter"` and unlimited runtime,
+Canon EOS M6, but its notes say it requires Compact Power Adapter CA-PS700A DC
+Coupler DR-E17 for contant power - this is just another way to say it requires a
+dummy battery, so the data is mislabeled for this camera.
 
-- Sony
-  - A5100: dummy battery
-  - A6000: dummy battery
-  - A6100: dummy battery
-  - A6300: dummy battery
-  - A6400: dummy battery
-  - A6500: dummy battery
-  - A7: dummy battery
-  - A7 III: dummy battery
-  - A7s II: dummy battery
-  - HDR-AS300R: not sold in CZ
-  RX10 MKIII: dummy battery
-- Canon
-  - EOS 1D X Mark II: adapter
-  - EOS 1D X Mark III: adapter
-  - EOS 5D Mark IV: adapter
-  - EOS 77D: dummy battery
-  - EOS 77D Mark II: dummy battery
-  - EOS 80D: dummy battery
-  - EOS 90D: adapter
-  - EOS M200: adapter
-  - EOS M6: adapter
-  - EOS R: adapter
+There is also `power == "USB"` Sony RX100 IV, but its notes say it requires a
+dummy battery too, so again, this is a mislabeled camera record in the data.
 
-## To-Do
+I do not see a way to submit a correction to the data on the camera check page,
+so I will not be contributing these corrections back to the community / Elgato.
 
-### Consider budging on dummy battery, caputer combined camera and battery price
+---
 
-Looks like almost all Sony and Fujifilm cameras required a dummy battery.
+If I settle for a dummy battery option, there is a bit wider choice of results.
+
+Good:
+
+Canon EOS M50 seems good. It is 14k on Alza:
+
+https://www.alza.cz/canon-eos-m50
+
+The DC coupler (dummy battery) for this is Canon DR-E12 and the AC charger is
+Canon ACK-E12. This shop seems to have it and the photo makes it appear as if
+both the charger and the coupler were included in the package (non-original):
+
+https://www.profotak.cz/Neoriginalni-adapter-pro-Canon-ACK-E12-d1766.htm
+
+I shot them a message asking about the exact contents of the package.
+
+Otherwise it is not available in the Czech Republic as far as I can see, but it
+is available on Amazon.
+
+Bad:
+
+- Canon EOS 5D Mark III: shuts off - mislabeled unlimited runtime
+- Canon EOS M6: no longer being sold
+- Nikon D3300: no longer being sold
+- Nikon D5100: no longer being sold
+- Nikon D5300: no longer being sold
+- Nikon D750: no longer being sold
+- Sony RX100 IV: no longer being sold

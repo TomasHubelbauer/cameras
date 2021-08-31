@@ -1,0 +1,74 @@
+[
+  {
+    "max_resolution": "720p60, 1080p30",
+    "notes": "This camera shuts off after a certain amount of time and is not recommended for live streaming.",
+    "connection": "MiniHDMI",
+    "power": "DummyBattery",
+    "verified_by": "Community",
+    "name": "Canon EOS 5D Mark III",
+    "heureka_url": "https://digitalni-fotoaparaty.heureka.cz/canon-eos-5d-mark-iii"
+  },
+  {
+    "max_resolution": "4K30",
+    "notes": "This camera was reported as being compatible by the community. This has not been verified by Elgato. \r\n\r\nDisable Eco Mode in settings. Disable Auto Power Off in settings.\r\n\r\nClean HDMI Output: Disable Auto-Focus",
+    "connection": "MicroHDMI",
+    "power": "DummyBattery",
+    "verified_by": "Community",
+    "name": "Canon EOS M50",
+    "heureka_url": "https://digitalni-fotoaparaty.heureka.cz/canon-eos-m50"
+  },
+  {
+    "max_resolution": "1080p60",
+    "notes": "Eco mode must be disabled in the settings. Auto Power Off must be disabled in the settings. Toggle display on/off must be off for clean HDMI output.\r\n\r\nRequires Compact Power Adapter CA-PS700A DC Coupler DR-E17 for constant power.",
+    "connection": "MicroHDMI",
+    "power": "DCPowerAdapter",
+    "verified_by": "Manufacturer",
+    "name": "Canon EOS M6",
+    "heureka_url": "https://digitalni-fotoaparaty.heureka.cz/canon-eos-m6"
+  },
+  {
+    "max_resolution": "1080p60",
+    "notes": "This camera was reported as being compatible by the community. This has not been verified by Elgato.",
+    "connection": "MiniHDMI",
+    "power": "DummyBattery",
+    "verified_by": "Community",
+    "name": "Nikon D3300",
+    "heureka_url": "https://digitalni-fotoaparaty.heureka.cz/nikon-d3300"
+  },
+  {
+    "max_resolution": "1080p60",
+    "notes": "This camera shuts off after a certain amount of time and is not recommended for live streaming.",
+    "connection": "MiniHDMI",
+    "power": "DummyBattery",
+    "verified_by": "Community",
+    "name": "Nikon D5100",
+    "heureka_url": "https://digitalni-fotoaparaty.heureka.cz/nikon-d5100"
+  },
+  {
+    "max_resolution": "1080p30",
+    "notes": "Press \"Info\" button to enable HDMI clean out.",
+    "connection": "MiniHDMI",
+    "power": "DummyBattery",
+    "verified_by": "Community",
+    "name": "Nikon D5300",
+    "heureka_url": "https://digitalni-fotoaparaty.heureka.cz/nikon-d5300"
+  },
+  {
+    "max_resolution": "1080p60",
+    "notes": "This camera was reported as being compatible by the community. This has not been verified by Elgato.",
+    "connection": "MiniHDMI",
+    "power": "DummyBattery",
+    "verified_by": "Community",
+    "name": "Nikon D750",
+    "heureka_url": "https://digitalni-fotoaparaty.heureka.cz/nikon-d750"
+  },
+  {
+    "max_resolution": "4K30",
+    "notes": "Requires dummy battery for power (sold separately)",
+    "connection": "MicroHDMI",
+    "power": "USB",
+    "verified_by": "Elgato",
+    "name": "Sony RX100 IV",
+    "heureka_url": "https://digitalni-fotoaparaty.heureka.cz/sony-rx100-iv"
+  }
+]
