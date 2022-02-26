@@ -84,3 +84,10 @@ Bad:
 - Nikon D5300: no longer being sold
 - Nikon D750: no longer being sold
 - Sony RX100 IV: no longer being sold
+
+## Canon ESO M50
+
+- https://www.youtube.com/watch?v=CJ9HLexTg5I
+- https://www.youtube.com/watch?v=0nl9oErMm-c
+- https://magiclantern.fm/
+- https://www.usa.canon.com/internet/portal/us/home/support/self-help-center/eos-webcam-utility
