@@ -91,3 +91,4 @@ Bad:
 - https://www.youtube.com/watch?v=0nl9oErMm-c
 - https://magiclantern.fm/
 - https://www.usa.canon.com/internet/portal/us/home/support/self-help-center/eos-webcam-utility
+- https://www.youtube.com/watch?v=rt_0Ve9Ajo0
